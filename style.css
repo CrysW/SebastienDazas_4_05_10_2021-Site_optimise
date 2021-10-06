@@ -827,6 +827,30 @@ h4 {
   background-image: url("img/image-de-presentation.jpg");
 }
 
+/*Pour mise en forme de slogan, citation-Maxime-Guibard et introduction-portfolio */
+
+.slogan {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  font-size: 22px;
+}
+
+.citation-Maxime-Guilbard {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.introduction-portfolio {
+  margin-left: 27.5%;
+  margin-right: 27.5%;
+  width: 45%;
+  font-size: 22px;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -888,6 +912,13 @@ h4 {
     padding: 0 20px;
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
+  }
+  .citation-Maxime-Guilbard,
+  .slogan,
+  .introduction-portfolio {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
   }
 }
 
@@ -1027,6 +1058,13 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .citation-Maxime-Guilbard,
+  .slogan,
+  .introduction-portfolio {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
   }
 }
 
